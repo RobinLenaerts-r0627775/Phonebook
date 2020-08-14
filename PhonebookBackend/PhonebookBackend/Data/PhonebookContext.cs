@@ -18,7 +18,7 @@ namespace PhonebookBackend.Data
         public PhonebookContext (DbContextOptions<PhonebookContext> options)
             : base(options)
         {
-            connection = new MySqlConnection("server=192.168.0.7;user=admin;password=********;database=Phonebook");
+            connection = new MySqlConnection("...");
             connection.Open();
 
         }
