@@ -1,0 +1,19 @@
+<mat-card class="uploadcard">
+    <mat-card-header>
+      <mat-card-title>Add Entry</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-card-subtitle>First Name</mat-card-subtitle>
+      <input [(ngModel)]="entryFirstName" id="firstNameInput" (keyup)="setSubmit()" type="text" required>
+      <mat-card-subtitle>Last Name</mat-card-subtitle>
+      <input [(ngModel)]="entryLastName" id="lastNameInput" (keyup)="setSubmit()" type="text" required>
+      <mat-card-subtitle>Number</mat-card-subtitle>
+      <input [(ngModel)]="entryNumber" id="numberInput" (keyup)="setSubmit()" type="text" required>
+      <div id="errNumber" class="" role="alert" >Number format should be: +12 34 5678910</div>
+      <div id="errInputs" class="" role="alert" >All fields are required.</div>
+
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-dialog-close mat-button id="submit" (click)="uploadEntry()" value="Submit" disabled>Submit</button>
+    </mat-card-actions>
+  </mat-card>

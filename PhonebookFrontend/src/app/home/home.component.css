@@ -1,0 +1,52 @@
+input {
+    width: 90%;
+    margin: 2.5% 5%;
+    height: 2em;
+}
+
+mat-card{
+    background: #d6d6d6;
+}
+
+.tableCard{
+    align-items: center;
+}
+  
+mat-card-header {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.mat-header-cell {
+    text-align: center;
+    color: black;
+}
+
+td{
+    text-align: center;
+    color: black;
+}
+
+
+table {
+    background-color: #d6d6d6;
+    color: black;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.custom-button {
+    position: fixed;
+    right: -60px;
+    top: 50px;
+    transition: all 0.15s ease-in 0s;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .custom-button:hover {
+    right: 0px;
+  }

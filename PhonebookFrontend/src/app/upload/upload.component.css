@@ -1,0 +1,35 @@
+mat-card-subtitle {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  color: black;
+}
+
+mat-card {
+  background-color: #d6d6d6;
+  color: black;
+  width:20em;
+}
+
+input{
+    width: 95%;
+}
+
+#submit {
+  color: black;
+  background: rgb(185, 185, 185);
+}
+
+#submit:disabled{
+    background: #d6d6d6;
+}
+
+
+#errNumber {
+  color: red;
+  padding-top: 5px;
+}
+
+#errInputs {
+  color: red;
+  padding-top: 5px;
+}
